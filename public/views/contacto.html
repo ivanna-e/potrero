@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tips de coctelería</title>
+    <!--BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="../imagen/icono.png" type="imagen/png">  
+</head>
+<body>
+    <!--NAVBAR-->
+    <nav class="navbar navbar-dark bg-dark border-bottom border-body">
+        <div class="container-fluid">
+            <a class="navbar-brand" >Aprendé con nosotros</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link" href="../../index.html">Inicio</a>
+                    <a class="nav-link" href="../views/clasifacacion.html">Clasificación de los cócteles</a>
+                    <a class="nav-link" href="../views/recetas.html">Recetas</a>
+                    <a class="nav-link" href="../views/tips.html">Tips de coctelería</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    <!--HEADER-->
+    <header>
+        <div>
+        <h1 class="letraHeader">Cómo en un bar, pero hecho en casa</h1>
+        <p class="letraHeader">Tus cocteles favoritos preparados por vos</p>
+        </div>
+    </header>
+
+    <!--SECTION-->
+    <section>
+        <article>
+            <h2 class="tituloCont">Contacto</h2>
+            <p>Si deseas aprender a preparar deliciosos cócteles en casa, contáctanos para recibir clases online personalizadas de la mano de bartenders profesionales. A tu tiempo y en la comodidad de tu hogar. No lo dudes, aprovechá ésta oportunidad para disfrutar los mejores cócteles</p>
+        </article>
+
+        <!--FORMULARIO-->
+        <form  >
+            <fieldset>
+                <legend>Formulario de contacto</legend>
+                <br>
+                <label class="contacto" for="nombre">Nombre:</label>
+                <input type="text" name="name" id="nombre" required>
+                <label class="contacto" for="apellido">Apellido:</label>
+                <input type="text" name="lname" id="apellido">
+                <label class="contacto" for="edad">Edad:</label>
+                <input type="number" name="edad" id="edad" required>
+                <label class="contacto" for="email">Email:</label>
+                <input type="email" name="email" id="email" required>
+                <label class="contacto" for="mensaje">Dejanos tu mensaje</label>
+                <textarea name="msn" id="mensaje" rows="3"></textarea>
+                <input class="boton" type="submit" name="Enviar">
+            </fieldset>
+        </form>
+    </section>
+
+    <!--FOOTER-->
+    <footer>
+        <p>&copy; Morel Ivanna. Proyecto final -  Potrero Digital 2023</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
